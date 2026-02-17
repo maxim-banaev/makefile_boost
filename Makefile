@@ -1,6 +1,7 @@
 # Compiler settings
 CXX = g++
-CXXFLAGS = -std=c++17 -Wall -Wextra -I/opt/homebrew/Cellar/boost/1.90.0_1/include
+
+CXXFLAGS = -std=c++17 -Wall -Wextra -g -O0 -I/opt/homebrew/Cellar/boost/1.90.0_1/include
 LDFLAGS = -L/opt/homebrew/Cellar/boost/1.90.0_1/lib
 
 # Directories
